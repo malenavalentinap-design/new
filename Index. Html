@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
+		<title>male y abi</title>
+		<link rel="stylesheet" href="estilos2.css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	</head>
+	<body>
+		<header>
+			<div class="container-hero">
+				<div class="container hero">
+					<div class="customer-support">
+						<i class="fa-solid fa-headset"></i>
+						<div class="content-customer-support">
+							<span class="text">Soporte al cliente</span>
+							<span class="number">381-405-1240</span>
+						</div>
+					</div>
+
+					<div class="container-logo">
+						<i class="fa-solid fa-menorah"></i>
+						<h1 class="logo"><a href="/">ARTISAN STORE</a></h1>
+					</div>
+
+					<div class="container-user">
+						<i class="fa-solid fa-user"></i>
+						<i class="fa-solid fa-basket-shopping"></i>
+						<div class="content-shopping-cart">
+							<span class="text">Carrito</span>
+							<span class="number">(0)</span>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="container-navbar">
+				<nav class="navbar container">
+					<i class="fa-solid fa-bars"></i>
+					<ul class="menu">
+						<li><a href="#">Inicio</a></li>
+						<li><a href="#">vainilla</a></li>
+						<li><a href="#">coco</a></li>
+						<li><a href="#">lavanda</a></li>
+						<li><a href="#">Más</a></li>
+					</ul>
+
+					<form class="search-form">
+						<input type="search" placeholder="Buscar..." />
+						<button class="btn-search">
+							<i class="fa-solid fa-magnifying-glass"></i>
+						</button>
+					</form>
+				</nav>
+			</div>
+		</header>
+
+		<section class="banner">
+			<div class="content-banner">
+				<p>Olores Deliciosos</p>
+				<h2>100%  <br />Artesanal</h2>
+				<a href="#">Comprar ahora</a>
+			</div>
+		</section>
+
+		<main class="main-content">
+			<section class="container container-features">
+				<div class="card-feature">
+					<i class="fa-solid fa-plane-up"></i>
+					<div class="feature-content">
+						<span>Envío gratuito a nivel mundial</span>
+						<p>En pedido superior a $150</p>
+					</div>
+				</div>
+				<div class="card-feature">
+					<i class="fa-solid fa-wallet"></i>
+					<div class="feature-content">
+						<span>Contrareembolso</span>
+						<p>100% garantía de devolución de dinero</p>
+					</div>
+				</div>
+				<div class="card-feature">
+					<i class="fa-solid fa-gift"></i>
+					<div class="feature-content">
+						<span>Tarjeta regalo especial</span>
+						<p>Ofrece bonos especiales con regalo</p>
+					</div>
+				</div>
+				<div class="card-feature">
+					<i class="fa-solid fa-headset"></i>
+					<div class="feature-content">
+						<span>Servicio al cliente 24/7</span>
+						<p>LLámenos 24/7 al 381-405-1240</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="container top-categories">
+				<h1 class="heading-1">aromas mas Vendidos</h1>
+				<div class="container-categories">
+					<div class="card-category category-moca">
+						<p>florales</p>
+						<span>Ver más</span>
+					</div>
+					<div class="card-category category-expreso">
+						<p>citricas</p>
+						<span>Ver más</span>
+					</div>
+					<div class="card-category category-capuchino">
+						<p>frutales</p>
+						<span>Ver más</span>
+					</div>
+				</div>
+			</section>
+
+			<section class="container top-products">
+				<h1 class="heading-1">Mejores Productos</h1>
+
+				<div class="container-options">
+					<span class="active">Destacados</span>
+					<span>Más recientes</span>
+					<span>Mejores Vendidos</span>
+				</div>
+
+				<div class="container-products">
+					<!-- Producto 1 -->
+					<div class="card-product">
+						<div class="container-img">
+							<img src="img/velaoriginal.jpg"coco" />
+							<span class="discount">-13%</span>
+							<div class="button-group">
+								<span>
+									<i class="fa-regular fa-eye"></i>
+								</span>
+								<span>
+									<i class="fa-regular fa-heart"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-code-compare"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+							</div>
+							<h3>coco</h3>
+							<span class="add-cart">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</span>
+							<p class="price">$4500.60 <span>$5600.30</span></p>
+						</div>
+					</div>
+					<!-- Producto 2 -->
+					<div class="card-product">
+						<div class="container-img">
+							<img
+								src="img/velaamarilla.jpg"
+								alt="Cafe incafe-ingles.jpg"/>
+							<span class="discount">-22%</span>
+							<div class="button-group">
+								<span>
+									<i class="fa-regular fa-eye"></i>
+								</span>
+								<span>
+									<i class="fa-regular fa-heart"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-code-compare"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+							</div>
+							<h3>vainilla</h3>
+							<span class="add-cart">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</span>
+							<p class="price">$5000.70 <span>$7000.30</span></p>
+						</div>
+					</div>
+					<!--  -->
+					<div class="card-product">
+						<div class="container-img">
+							<img
+								src="img/velamorada.jpg"
+								alt="Cafe Australiano"
+							/>
+							<div class="button-group">
+								<span>
+									<i class="fa-regular fa-eye"></i>
+								</span>
+								<span>
+									<i class="fa-regular fa-heart"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-code-compare"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+							</div>
+							<h3>lavanda</h3>
+							<span class="add-cart">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</span>
+							<p class="price">$3000.20</p>
+						</div>
+					</div>
+					<!--  -->
+					<div class="card-product">
+						<div class="container-img">
+							<img src="img/velarosa.jpg" alt="Cafe Helado" />
+							<div class="button-group">
+								<span>
+									<i class="fa-regular fa-eye"></i>
+								</span>
+								<span>
+									<i class="fa-regular fa-heart"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-code-compare"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+							</div>
+							<h3>flor blanca</h3>
+							<span class="add-cart">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</span>
+							<p class="price">$5200.60</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="gallery">
+				<img
+					src="img/foto1.jpg"
+					alt="Gallery Img1"
+					class="gallery-img-1"
+				/><img
+					src="img/foto2.jpg"
+					alt="Gallery Img2"
+					class="gallery-img-2"
+				/><img
+					src="img/foto3.jpg"
+					alt="Gallery Img3"
+					class="gallery-img-3"
+				/><img
+					src="img/foto4.jpg"
+					alt="Gallery Img4"
+					class="gallery-img-4"
+				/><img
+					src="img/foto5.jpg"
+					alt="Gallery Img5"
+					class="gallery-img-5"
+				/>
+			</section>
+
+			<section class="container specials">
+				<h1 class="heading-1">Especiales</h1>
+
+				<div class="container-products">
+					<!-- Producto 1 -->
+					<div class="card-product">
+						<div class="container-img">
+							<img src="img/velaverde.jpg" alt="Cafe Irish" />
+							<span class="discount">-13%</span>
+							<div class="button-group">
+								<span>
+									<i class="fa-regular fa-eye"></i>
+								</span>
+								<span>
+									<i class="fa-regular fa-heart"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-code-compare"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+							</div>
+							<h3>bosque</h3>
+							<span class="add-cart">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</span>
+							<p class="price">$4200.60 <span>$5200.30</span></p>
+						</div>
+					</div>
+					<!-- Producto 2 -->
+					<div class="card-product">
+						<div class="container-img">
+							<img
+								src="img/velaroja.jpg"
+								alt="Cafe incafe-ingles.jpg"
+							/>
+							<span class="discount">-22%</span>
+							<div class="button-group">
+								<span>
+									<i class="fa-regular fa-eye"></i>
+								</span>
+								<span>
+									<i class="fa-regular fa-heart"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-code-compare"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+							</div>
+							<h3>frutila</h3>
+							<span class="add-cart">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</span>
+							<p class="price">$5200.70 <span>$7000.30</span></p>
+						</div>
+					</div>
+					<!--  -->
+					<div class="card-product">
+						<div class="container-img">
+							<img src="img/velaoriginal.jpg" alt="Cafe Viena" />
+							<span class="discount">-30%</span>
+							<div class="button-group">
+								<span>
+									<i class="fa-regular fa-eye"></i>
+								</span>
+								<span>
+									<i class="fa-regular fa-heart"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-code-compare"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+							</div>
+							<h3>rosas</h3>
+							<span class="add-cart">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</span>
+							<p class="price">$3300.85 <span>$5100.50</span></p>
+						</div>
+					</div>
+					<!--  -->
+					<div class="card-product">
+						<div class="container-img">
+							<img src="img/velaoriginal.jpg" alt="Cafe Liqueurs" />
+							<div class="button-group">
+								<span>
+									<i class="fa-regular fa-eye"></i>
+								</span>
+								<span>
+									<i class="fa-regular fa-heart"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-code-compare"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-card-product">
+							<div class="stars">
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-solid fa-star"></i>
+								<i class="fa-regular fa-star"></i>
+							</div>
+							<h3>margaritas</h3>
+							<span class="add-cart">
+								<i class="fa-solid fa-basket-shopping"></i>
+							</span>
+							<p class="price">$5600.60</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="container blogs">
+				<h1 class="heading-1">Últimos Blogs</h1>
+
+				<div class="container-blogs">
+					<div class="card-blog">
+						<div class="container-img">
+							<img src="img/velicoco.jpg" alt="Imagen Blog 1" />
+							<div class="button-group-blog">
+								<span>
+									<i class="fa-solid fa-magnifying-glass"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-link"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-blog">
+							<h3>Sueño de Coco - Vela de Coco</h3>
+							<span>8 de agosto 2025</span>
+							<p>
+								Una fragancia suave y exótica que te trnasporta a
+								una tarde de playa. El aroma a coco cremoso con
+								notas de vainilla y almendra dulce llena el espacio
+								de frescura y serenidad. Perfecta para ambientes
+								relajantes y veraniegos.
+							</p>
+							<div class="btn-read-more">Leer más</div>
+						</div>
+					</div>
+					<div class="card-blog">
+						<div class="container-img">
+							<img src="img/jazmin.jpg" alt="Imagen Blog 2" />
+							<div class="button-group-blog">
+								<span>
+									<i class="fa-solid fa-magnifying-glass"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-link"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-blog">
+							<h3>Esencia de Jazmín - Vela de Jazmín</h3>
+							<span>8 de agosto 2025</span>
+							<p>
+								Delicada y elegante, esta vela desprende el perfume
+								natural del jazmín en flor, acompañado de sutiles
+								notas de lirio y té blanco. perfecta para dar un
+								toque romántico y armonioso al hogar. Ideal para
+								Noches tranquilas, meditación o baño relajante
+							</p>
+							<div class="btn-read-more">Leer más</div>
+						</div>
+					</div>
+					<div class="card-blog">
+						<div class="container-img">
+							<img src="img/rosasmargaritas.jpg" alt="Imagen Blog 3" />
+							<div class="button-group-blog">
+								<span>
+									<i class="fa-solid fa-magnifying-glass"></i>
+								</span>
+								<span>
+									<i class="fa-solid fa-link"></i>
+								</span>
+							</div>
+						</div>
+						<div class="content-blog">
+							<h3>Jardín Floral - Vela de Rosas y Margaritas</h3>
+							<span>8 de agosto 2025</span>
+							<p>
+								Una combinación encantadora de rosas frescas y margaritas
+								silvestres, que llenan el ambiente con una fragancia natural,
+								limpia y primaveral. Muy reomendado para lectura, momentos
+								de autocuidado decoración aromática.
+							</p>
+							<div class="btn-read-more">Leer más</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="footer">
+			<div class="container container-footer">
+				<div class="menu-footer">
+					<div class="contact-info">
+						<p class="title-footer">Información de Contacto</p>
+						<ul>
+							<li>
+								Dirección: 71 Pennington Lane Vernon Rockville, CT
+								06066
+							</li>
+							<li>Teléfono: 381-405-1240</li>
+							<li>Fax: 55555300</li>
+							<li>EmaiL: malenavalentinap@gmail.com</li>
+						</ul>
+						<div class="social-icons">
+							<span class="facebook">
+								<i class="fa-brands fa-facebook-f"></i>
+							</span>
+							<span class="twitter">
+								<i class="fa-brands fa-twitter"></i>
+							</span>
+							<span class="youtube">
+								<i class="fa-brands fa-youtube"></i>
+							</span>
+							<span class="pinterest">
+								<i class="fa-brands fa-pinterest-p"></i>
+							</span>
+							<span class="instagram">
+								<a href="https://www.instagram.com/Artisan_store.arg/"><i class="fa-brands fa-instagram"></i> </a>
+							</span>
+						</div>
+					</div>
+
+					<div class="information">
+						<p class="title-footer">Información</p>
+						<ul>
+							<li><a href="#">Acerca de Nosotros</a></li>
+							<li><a href="#">Información Delivery</a></li>
+							<li><a href="#">Politicas de Privacidad</a></li>
+							<li><a href="#">Términos y condiciones</a></li>
+							<li><a href="#">Contactános</a></li>
+						</ul>
+					</div>
+
+					<div class="my-account">
+						<p class="title-footer">Mi cuenta</p>
+
+						<ul>
+							<li><a href="#">Mi cuenta</a></li>
+							<li><a href="#">Historial de ordenes</a></li>
+							<li><a href="#">Lista de deseos</a></li>
+							<li><a href="#">Boletín</a></li>
+							<li><a href="#">Reembolsos</a></li>
+						</ul>
+					</div>
+
+					<div class="newsletter">
+						<p class="title-footer">Boletín informativo</p>
+
+						<div class="content">
+							<p>
+								Suscríbete a nuestros boletines ahora y mantente al
+								día con nuevas colecciones y ofertas exclusivas.
+							</p>
+							<input type="email" placeholder="Ingresa el correo aquí...">
+							<button>Suscríbete</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="copyright">
+					<p>
+						gracias por ver &copy; 2025
+					</p>
+
+					<img src="img/payment.png" alt="Pagos">
+				</div>
+			</div>
+		</footer>
+	</body>
+
+</html>
